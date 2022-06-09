@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="tr">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title></title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="./style.css">
+      <script src="https://kit.fontawesome.com/b6754fdc88.js" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+         integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.21/dist/js/splide.min.js"></script>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.21/dist/css/splide.min.css" />
+      <script src="./script.js" defer></script>
+   </head>
+   <body>
+      <nav class="navbar">
+         <div class="navbar-container container">
+            <input type="checkbox" name="" id="">
+            <div class="hamburger-lines">
+               <span class="line line1"></span>
+               <span class="line line2"></span>
+               <span class="line line3"></span>
+            </div>
+            <ul class="menu-items">
+               <li><a href="#offices">Offices</a></li>
+               <li><a href="#fields">Activity Fields</a></li>
+               
+            </ul>
+            <img loading="lazy" src="./resources/logo/site-logo.png" class="logo"></img>
+         </div>
+      </nav>
+      <div id="app">
+      <section class="heroContainerWrapper">
+         <div class="splide">
+            <div class="splide__track">
+               <ul class="splide__list">
+                  <li class="splide__slide">
+                     <div class="splide__slide__container">
+                        <div class="slide__content">
+                           <img loading="lazy" data-splide-lazy="./resources/vitalen-banner.jpg" alt="pedal city mode banner"
+                              class="slider-imgs" src="./resources/vitalen-banner.jpg" alt="vitalen team" />
+                        </div>
+                     </div>
+                  </li>
+                  <li class="splide__slide">
+                     <div class="splide__slide__container">
+                        <div class="slide__content">
+                           <img loading="lazy" data-splide-lazy="./resources/award.jpg" alt="pedal sport mode banner"
+                              class="slider-imgs" src="./resources/award.jpg" alt="vitalen award" />
+                        </div>
+                     </div>
+                  </li>
+                  <li class="splide__slide">
+                     <div class="splide__slide__container">
+                        <div class="slide__content">
+                           <img loading="lazy" data-splide-lazy="./resources/pedal-commander-sema-2021.jpg" class="slider-imgs"
+                              src="./resources/pedal-commander-sema-2021.jpg" alt="pedal commander sema 2021" />
+                        </div>
+                     </div>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </section>
+      <section id="offices">
+         <h2>Our offices</h2>
+         <div class="officeSectionContentWrapper">
+            <div class="tabsWrapper">
+               <div class="tab">
+                  <button class="tablinks active" onclick="openCity(event, 'merkezOfis')"><i class="fa-solid fa-building"></i>
+                  Base Office</button>
+                  <!-- <button class="tablinks" onclick="openCity(event, 'argeVeYazilim')">Arge ve Yazilim
+                     Ofisi</button> -->
+                  <button class="tablinks" onclick="openCity(event, 'amerikaOfis')"><i class="fa-solid fa-building"></i> USA
+                  Office</button>
+                  <button class="tablinks" onclick="openCity(event, 'almanyaOfis')"><i class="fa-solid fa-building"></i>
+                  Germany Office</button>
+               </div>
+            </div>
+            <div class="offices">
+               <div id="merkezOfis" class="tabcontent" style="display: block;">
+                  <div class="officeDetailsWrapper">
+                     <ul class="officeDetails">
+                        <li>
+                           <div class="listContainer">
+                              <i class="fa-solid fa-globe"></i>
+                              <a style="text-decoration:underline" target="_blank"
+                                 href="http://vitalen.com.tr/">
+                                 www.vitalen.com.tr</at>
+                           </div>
+                        </li>
+                        <li>
+                        <div class="listContainer">
+                        <i class="fa-solid fa-at"></i>
+                        <a href="mailto:info@vitalen.com.tr">info@vitalen.com.tr</a>
+                        </div>
+                        </li>
+                        <li>
+                           <div class="listContainer">
+                              <i class="fa-solid fa-location-dot"></i>
+                              <p>Serhat Mah., 1147. Cad. 12/17 Yenimahalle/Ankara</p>
+                           </div>
+                        </li>
+                        <li>
+                           <div class="listContainer">
+                              <i class="fa-solid fa-mobile"></i>
+                              <a href="tel:+90 312 385 99 55">+90 312 385 99 55</a>
+                           </div>
+                        </li>
+                        <!-- <li>
+                           <div class="socialM-container">
+                           
+                             <a target="_blank" href="https://www.instagram.com/pedalcommandertr/"><i
+                                 class="fa-brands fa-instagram"></i></a>
+                           
+                             <a target="_blank" href="https://www.facebook.com/vitalenholding"><i
+                                 class="fa-brands fa-facebook"></i></a>
+                           
+                             <a target="_blank" href="https://www.youtube.com/channel/UCMJCSMyzVKyALv7qoPJvZhg"><i
+                                 class="fa-brands fa-youtube"></i></a>
+                           
+                             <a target="_blank" href="https://twitter.com/pedalcommandtr"><i
+                                 class="fa-brands fa-twitter"></i></a>
+                           </div>
+                           </li> -->
+                     </ul>
+                     <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3057.546519387005!2d32.76116901565732!3d39.973890479419126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d34976021a8b37%3A0x3fc9ab2525d57bf6!2sOstim%2C%201147.%20Sk.%20No%3A12%2C%2006374%20Yenimahalle%2FAnkara!5e0!3m2!1sen!2str!4v1653515793969!5m2!1sen!2str"
+                        style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
+               </div>
+               <div id="amerikaOfis" class="tabcontent">
+                  <div class="officeDetailsWrapper">
+                     <ul class="officeDetails">
+                        <li>
+                           <div class="listContainer">
+                              <i class="fa-solid fa-globe"></i>
+                              <a style="text-decoration:underline" target="_blank"
+                                 href="https://pedalcommander.com/">
+                                 www.pedalcommander.com</at>
+                           </div>
+                        </li>
+                        <li>
+                        <div class="listContainer">
+                        <i class="fa-solid fa-at"></i>
+                        <a href="mailto:customerservice@pedalcommander.com">customerservice@
+                        pedalcommander.com</a>
+                        </div>
+                        </li>
+                        <li>
+                           <div class="listContainer">
+                              <i class="fa-solid fa-location-dot"></i>
+                              <p> Inc. 4690 Calle Quetzall Camarillo, CA 93012</p>
+                           </div>
+                        </li>
+                        <li>
+                           <div class="listContainer">
+                              <i class="fa-solid fa-mobile"></i>
+                              <a href="tel:+1(805)365-1010">+1(805)365-1010</a>
+                           </div>
+                        </li>
+                        <!-- <li>
+                           <div class="socialM-container">
+                           
+                             <a target="_blank" href="https://www.instagram.com/pedalcommander/"><i
+                                 class="fa-brands fa-instagram"></i></a>
+                           
+                             <a target="_blank" href="https://www.facebook.com/PedalCommander/"><i
+                                 class="fa-brands fa-facebook"></i></a>
+                           
+                             <a target="_blank" href="https://www.youtube.com/c/%3CPedalCommander%3E?sub_confirmation=1"><i
+                                 class="fa-brands fa-youtube"></i></a>
+                           
+                             <a target="_blank" href="https://twitter.com/PedalCommander"><i
+                                 class="fa-brands fa-twitter"></i></a>
+                           </div>
+                           </li> -->
+                     </ul>
+                     <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1649.9873820255286!2d-119.01109939176014!3d34.19812119514167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e830bb744738df%3A0xfadf5a855aaabd02!2sVitalen%20Auto%20Performance%2C%20Inc.!5e0!3m2!1sen!2str!4v1653516587437!5m2!1sen!2str"
+                        style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
+               </div>
+               <div id="almanyaOfis" class="tabcontent">
+                  <div class="officeDetailsWrapper">
+                     <ul class="officeDetails">
+                        <li>
+                           <div class="listContainer">
+                              <i class="fa-solid fa-globe"></i>
+                              <a style="text-decoration:underline" target="_blank"
+                                 href="https://pedalcommander.de/">
+                                 www.pedalcommander.de</at>
+                           </div>
+                        </li>
+                        <li>
+                        <div class="listContainer">
+                        <i class="fa-solid fa-at"></i><a
+                           href="mailto:kundendienst@pedalcommander.de">kundendienst@pedalcommander.de</a>
+                        </div>
+                        </li>
+                        <li>
+                           <div class="listContainer">
+                              <i class="fa-solid fa-location-dot"></i>
+                              <p>Tonhallenstr. 16 47051 Duisburg Deutchland</p>
+                           </div>
+                        </li>
+                        <li>
+                           <div class="listContainer">
+                              <i class="fa-solid fa-mobile"></i>
+                              <a href="tel:+49 176 620 45 198">+49 176 620 45 198</a>
+                           </div>
+                        </li>
+                     </ul>
+                     <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2487.4810622579084!2d6.766977815990791!3d51.430958679622634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b8bf1390382ded%3A0x39ac9bb37d6ba5c9!2sTonhallenstra%C3%9Fe%2016%2C%2047051%20Duisburg%2C%20Germany!5e0!3m2!1sen!2str!4v1653516501291!5m2!1sen!2str"
+                        style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section id="fields" class="fields">
+         <h2 style="width: 100%; margin: 20px 0;">Activity Fields</h2>
+         <div class="companyContentWrapper">
+            <ul class="tabs">
+               <li><a href="#tab-automotive"><i class="fa-solid fa-car"></i> Automotive</a> </li>
+               <li><a href="#tab-construction"><i class="fa-solid fa-hammer"></i> Construction</a></li>
+               <li><a href="#tab-agriculture"><i class="fa-solid fa-wheat-awn"></i> Agriculture</a></li>
+               <li><a href="#tab-game"><i class="fa-solid fa-gamepad"></i> Game</a></li>
+            </ul>
+            <div id="tab-automotive" class="tab_content">
+               <ul class="tabs includesChildTabs">
+                  <li class="child_tabs">
+                     <a href="#tab-child-automotive">Vitalen Automotive A.Ş</a>
+                  </li>
+                  <li class="child_tabs">
+                     <a href="#tab-child-autoPerformance">Vitalen Auto Performance Inc</a>
+                  </li>
+                  <li class="child_tabs">
+                     <a href="#tab-child-technologyGbmh">Vitalen Technology GMBH</a>
+                  </li>
+               </ul>
+               <div id="tab-child-automotive" class="tab_content">
+                  <div class="tab-content-inner animate__animated animate__fadeIn">
+                     <div class="aboutBox">
+                        <h3 style="box-shadow: none">
+                           <img loading="lazy" src="./resources/logo/vitalen-otomotiv.png" />
+                        </h3>
+                        <p>
+                           Since 2011, Vitalen Automotive Inc. has been addressing the
+                           needs of our country and the world by keeping up with the
+                           changes in technology. Vitalen Automotive Inc., acting in line
+                           with 100% domestic and national production, represents Turkey
+                           all over the world with its products named Pedal Commander,
+                           Chip Werke and Fukin Tuned.
+                        </p>
+                        <p>
+                           Pedal Commander, which started to be produced in Turkey in
+                           2011, has started to be used all over the world, especially in
+                           America and Europe. It received the design award four times in
+                           a row at the international SEMA fair. Pedal Commander reached
+                           out to more than hundred thousand users in a short time, it is
+                           one of the most used Electronic Throttle Control (ETC) devices
+                           in the world.
+                        </p>
+                        <p>
+                           Vitalen Automotive Inc. continues to market its products to
+                           the world that strengthen vehicles.
+                        </p>
+                     </div>
+                     <div class="brandsBox">
+                        <h3 style="margin-top: 0">BRANDS</h3>
+                        <div class="brand-tabs">
+                           <div class="brand-tablinks imgTabCon" onclick="openBrandContent(event, 'pedalCommanderTr')"
+                              id="defaultOpen">
+                              <img src="./resources/logo/pedal-commander.png" alt="pedal-commander" />
+                              <div class="discover">
+                                 <p>Discover <i class="fa-solid fa-arrow-right-long"></i></p>
+                              </div>
+                           </div>
+                           <div class="brand-tablinks imgTabCon" onclick="openBrandContent(event, 'fukinTunedTr')"
+                              id="defaultOpen">
+                              <img src="./resources/logo/fukin-tuned.png" alt="fukin-tuned" />
+                              <div class="discover">
+                                 <p>Discover <i class="fa-solid fa-arrow-right-long"></i></p>
+                              </div>
+                           </div>
+                           <div class="brand-tablinks imgTabCon" onclick="openBrandContent(event, 'chipwerkeTr')"
+                              id="defaultOpen">
+                              <img src="./resources/logo/chipwerke.png" alt="chipwerke" />
+                              <div class="discover">
+                                 <p>Discover <i class="fa-solid fa-arrow-right-long"></i></p>
+                              </div>
+                           </div>
+                        </div>
+                        <div id="pedalCommanderTr" class="brand-tabContent animate__animated animate__fadeIn">
+                           <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+                           <div class="salesPlatformsBox">
+                              <h3 style="margin-bottom: 10px">SALES PLATFORMS</h3>
+                              <a target="_blank" href="https://pedalcommander.com.tr/"><img loading="lazy"
+                                 src="./resources/logo/pc-türkiye.png" alt="pedal commander tr" /></a>
+                              <a target="_blank" href="https://www.trendyol.com/pedalcommander">
+                              <img loading="lazy" src="./resources/logo/trendyol.png" alt="trendyol" /></a>
+                              <a target="_blank" href="https://www.hepsiburada.com/pedalcommander">
+                              <img loading="lazy" src="./resources/logo/hepsiburada.png" alt="hepsiburada" /></a>
+                              <a target="_blank" href="https://www.n11.com/magaza/vitalenotomotiva-s">
+                              <img loading="lazy" src="./resources/logo/n11.png" alt="n11" /></a>
+                              <a target="_blank"
+                                 href="https://www.amazon.ae/stores/Pedal+Commander/page/6C21AB50-D128-4C9F-9661-3CD270F3DED2?ref_=ast_bln">
+                              <img loading="lazy" src="./resources/logo/amazon-arab.png" alt="amazon ae" /></a>
+                              <a target="_blank" href="https://www.amazon.sa/-/en/b?ie=UTF8&node=22638901031">
+                              <img loading="lazy" src="./resources/logo/amazon-saudi.png" alt="amazon sa" /></a>
+                           </div>
+                           <div class="award-container">
+                              <h3>Awards</h3>
+                              <img src="./resources/award_logo/carb-certificate.jpg" alt="carb-certificate">
+                              <img src="./resources/award_logo/ce-certificate.jpg" alt="ce certificate">
+                              <img src="./resources/award_logo/iso-certificate.jpg" alt="iso ce-certificate">
+                              <img src="./resources/award_logo/sdc-award_38f46088-945f-4170-9065-41db60c9ee46.jpg" alt="sdc award">
+                              <img src="./resources/award_logo/sema-award.jpg" alt="sema award">
+                              <img src="./resources/award_logo/TUV_AUSTRALIA.png" alt="tuv austria">
+                           </div>
+                           <div class="socialM-container">
+                              <h3>Social </h3>
+                              <a target="_blank" href="https://www.instagram.com/pedalcommandertr/"><i
+                                 class="fa-brands fa-instagram"></i></a>
+                              <a target="_blank" href="https://www.facebook.com/vitalenholding"><i
+                                 class="fa-brands fa-facebook"></i></a>
+                              <a target="_blank" href="https://www.youtube.com/channel/UCMJCSMyzVKyALv7qoPJvZhg"><i
+                                 class="fa-brands fa-youtube"></i></a>
+                              <a target="_blank" href="https://twitter.com/pedalcommandtr"><i
+                                 class="fa-brands fa-twitter"></i></a>
+                           </div>
+                        </div>
+                        <div id="fukinTunedTr" class="brand-tabContent animate__animated animate__fadeIn">
+                           <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+                           <div class="salesPlatformsBox">
+                              <h3 style="margin-bottom: 10px">SALES PLATFORMS</h3>
+                              <a target="_blank" href="https://fukintuned.com.tr/">
+                              <img loading="lazy" src="./resources/logo/ft-türkiye.png" alt="fukin tuned tr" /></a>
+                              <a target="_blank"
+                                 href="https://www.amazon.com/stores/FukinTuned/page/87BE0BFB-5F23-4316-B4B5-D4D0B017DEA7?ref_=ast_bln">
+                              <img loading="lazy" src="./resources/logo/amazon-unitedstates.png" alt="amazon us" /></a>
+                           </div>
+                           <div class="socialM-container">
+                              <h3> Social </h3>
+                              <a target="_blank" href="https://www.instagram.com/fukintunedtr/"><i
+                                 class="fa-brands fa-instagram"></i></a>
+                              <a target="_blank" href="https://www.facebook.com/fukintunedtr"><i
+                                 class="fa-brands fa-facebook"></i></a>
+                              <a target="_blank" href="https://www.youtube.com/channel/UCL3CkT4dPXYkDgRUe1T841Q"><i
+                                 class="fa-brands fa-youtube"></i></a>    
+                           </div>
+                        </div>
+                        <div id="chipwerkeTr" class="brand-tabContent animate__animated animate__fadeIn">
+                           <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+                           <div class="salesPlatformsBox">
+                              <h3 style="margin-bottom: 10px">SALES PLATFORMS</h3>
+                              <a target="_blank" href="https://www.chipwerke.com/">
+                              <img loading="lazy" src="./resources/logo/chipwerke.png" alt="chipwerke" /></a>
+                           </div>
+                           <div class="socialM-container">
+                              <h3> Social </h3>
+                              <a target="_blank" href="https://www.instagram.com/chip_werke/"><i
+                                 class="fa-brands fa-instagram"></i></a>
+                              <a target="_blank" href="https://www.facebook.com/chipwerke/"><i
+                                 class="fa-brands fa-facebook"></i></a>
+                              <a target="_blank" href="https://www.youtube.com/channel/UCOfoSH5nGibXekNEgCkuUtg"><i
+                                 class="fa-brands fa-youtube"></i></a> 
+                              <a target="_blank" href="https://twitter.com/chipwerke?lang=en"><i
+                                 class="fa-brands fa-twitter"></i></a>   
+                           </div>
+                        </div>
+                        <!-- <a target="_blank" href="https://pedalcommander.com.tr/"
+                           ><img loading="lazy" 
+                             src="./resources/logo/pedal-commander.png"
+                             alt="pedal commander"
+                           /></a>
+                           
+                           <a target="_blank" href="https://fukintuned.com.tr/">
+                           <img loading="lazy" 
+                             src="./resources/logo/fukin-tuned.png"
+                             alt=" fukin-tuned"
+                           /></a>
+                           
+                           <a target="_blank" href="https://www.chipwerke.com/">
+                           <img loading="lazy"  src="./resources/logo/chipwerke.png" alt="chipwerke"
+                           /></a> -->
+                     </div>
+                  </div>
+               </div>
+               <div id="tab-child-autoPerformance" class="tab_content">
+                  <div class="tab-content-inner animate__animated animate__fadeIn">
+                     <div class="aboutBox">
+                        <h3 style="box-shadow: none">
+                           <img loading="lazy" src="./resources/logo/vitalen-autoperformance.png" />
+                        </h3>
+                        <p>
+                           Vitalen Holding has been the pioneer of technological
+                           development and innovation with Pedal Commander, Chip Werke
+                           and Fukin Tuned products manufactured in Turkey since 2011. In
+                           2014, it brought its brands overseas under the name of Vitalen
+                           Auto Performance Inc in Southern California, USA.
+                        </p>
+                        <p>
+                           We sell our award-winning and best-selling products, which are
+                           sold in six continents around the world such as Pedal
+                           Commander, Chip Werke And Fukin Tuned, to North and South
+                           America through our websites www.pedalcommander.com and
+                           www.fukintuned.com, and the Amazon platform.
+                        </p>
+                        <p>
+                           As Vitalen Auto Performance Inc, we continue to produce and
+                           market products that strengthen your vehicles.
+                        </p>
+                     </div>
+                     <div class="brandsBox">
+                        <h3 style="margin-top: 0">BRANDS</h3>
+                        <div class="brand-tabs">
+                           <div class="brand-tablinks imgTabCon" onclick="openBrandContent(event, 'pedalCommanderUs')"
+                              id="defaultOpen">
+                              <img src="./resources/logo/pedal-commander.png" alt="pedal-commander" />
+                              <div class="discover">
+                                 <p>Discover <i class="fa-solid fa-arrow-right-long"></i></p>
+                              </div>
+                           </div>
+                           <div class="brand-tablinks imgTabCon" onclick="openBrandContent(event, 'fukinTunedUs')"
+                              id="defaultOpen">
+                              <img src="./resources/logo/fukin-tuned.png" alt="fukin-tuned" />
+                              <div class="discover">
+                                 <p>Discover <i class="fa-solid fa-arrow-right-long"></i></p>
+                              </div>
+                           </div>
+                           <div class="brand-tablinks imgTabCon" onclick="openBrandContent(event, 'chipwerkeUs')"
+                              id="defaultOpen">
+                              <img src="./resources/logo/chipwerke.png" alt="chipwerke" />
+                              <div class="discover">
+                                 <p>Discover <i class="fa-solid fa-arrow-right-long"></i></p>
+                              </div>
+                           </div>
+                        </div>
+                        <div id="pedalCommanderUs" class="brand-tabContent animate__animated animate__fadeIn">
+                           <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+                           <div class="salesPlatformsBox">
+                              <h3 style="margin-bottom: 10px">SALES PLATFORMS</h3>
+                              <a target="_blank" href="https://pedalcommander.com/"><img loading="lazy"
+                                 src="./resources/logo/pc-usa.png" alt="pedal commander usa" /></a>
+                              <a target="_blank" href="https://www.walmart.com/seller/101002803?itemId=597491099&pageName=item">
+                              <img loading="lazy" src="./resources/logo/walmart.png" alt="wallmart" /></a>
+                              <a target="_blank"
+                                 href="https://www.amazon.com/stores/PEDALCOMMANDER/page/1057C902-C503-47ED-B12B-39E6B3746ABE?ref_=ast_bln">
+                              <img loading="lazy" src="./resources/logo/amazon-unitedstates.png" alt="amazon us" /></a>
+                              <a target="_blank"
+                                 href="https://www.amazon.com.br/s?me=A1KGI2XQGXJY7F&marketplaceID=A2Q3Y263D00KWC">
+                              <img loading="lazy" src="./resources/logo/amazon-brazil.png" alt="amazon br" /></a>
+                              <a target="_blank" href="https://www.amazon.ca/s?me=A1KGI2XQGXJY7F&marketplaceID=A2EUQ1WTGCTBG2">
+                              <img loading="lazy" src="./resources/logo/amazon-canada.png" alt="amazon ca" /></a>
+                              <a target="_blank"
+                                 href="https://www.amazon.com.mx/stores/PEDALCOMMANDER/page/FC543B77-DEC2-4EA3-B61A-C4C8CDE43C9A?ref_=ast_bln">
+                              <img loading="lazy" src="./resources/logo/amazon-mexico.png" alt="amazon mx" /></a>
+                           </div>
+                           <div class="award-container">
+                              <h3 >Awards</h3>
+                              <img src="./resources/award_logo/carb-certificate.jpg" alt="carb-certificate">
+                              <img src="./resources/award_logo/ce-certificate.jpg" alt="ce certificate">
+                              <img src="./resources/award_logo/iso-certificate.jpg" alt="iso ce-certificate">
+                              <img src="./resources/award_logo/sdc-award_38f46088-945f-4170-9065-41db60c9ee46.jpg" alt="sdc award">
+                              <img src="./resources/award_logo/sema-award.jpg" alt="sema award">
+                              <img src="./resources/award_logo/TUV_AUSTRALIA.png" alt="tuv austria">
+                           </div>
+                           <div class="socialM-container">
+                              <h3>Social </h3>
+                              <a target="_blank" href="https://www.instagram.com/pedalcommander/"><i
+                                 class="fa-brands fa-instagram"></i></a>
+                              <a target="_blank" href="https://www.facebook.com/PedalCommander/"><i
+                                 class="fa-brands fa-facebook"></i></a>
+                              <a target="_blank" href="https://www.youtube.com/c/%3CPedalCommander%3E?sub_confirmation=1"><i
+                                 class="fa-brands fa-youtube"></i></a>
+                              <a target="_blank" href="https://twitter.com/PedalCommander"><i
+                                 class="fa-brands fa-twitter"></i></a>
+                           </div>
+                        </div>
+                        <div id="fukinTunedUs" class="brand-tabContent animate__animated animate__fadeIn">
+                           <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+                           <div class="salesPlatformsBox">
+                              <h3 style="margin-bottom: 10px">SALES PLATFORMS</h3>
+                              <a target="_blank" href="https://www.fntuned.com/">
+                              <img loading="lazy" src="./resources/logo/ft-usa.png" alt="fukin tuned usa" /></a>
+                              <a target="_blank"
+                                 href="https://www.amazon.com/stores/FukinTuned/page/87BE0BFB-5F23-4316-B4B5-D4D0B017DEA7?ref_=ast_bln">
+                              <img loading="lazy" src="./resources/logo/amazon-unitedstates.png" alt="amazon us" /></a>
+                           </div>
+                        </div>
+                        <div id="chipwerkeUs" class="brand-tabContent animate__animated animate__fadeIn">
+                           <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+                           <div class="salesPlatformsBox">
+                              <h3 style="margin-bottom: 10px">SALES PLATFORMS</h3>
+                              <a target="_blank" href="https://www.chipwerke.com/">
+                              <img loading="lazy" src="./resources/logo/chipwerke.png" alt="chipwerke" /></a>
+                           </div>
+                           <div class="socialM-container">
+                              <h3> Social </h3>
+                              <a target="_blank" href="https://www.instagram.com/chip_werke/"><i
+                                 class="fa-brands fa-instagram"></i></a>
+                              <a target="_blank" href="https://www.facebook.com/chipwerke/"><i
+                                 class="fa-brands fa-facebook"></i></a>
+                              <a target="_blank" href="https://www.youtube.com/channel/UCOfoSH5nGibXekNEgCkuUtg"><i
+                                 class="fa-brands fa-youtube"></i></a> 
+                              <a target="_blank" href="https://twitter.com/chipwerke?lang=en"><i
+                                 class="fa-brands fa-twitter"></i></a>   
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div id="tab-child-technologyGbmh" class="tab_content">
+                  <div class="tab-content-inner animate__animated animate__fadeIn">
+                     <div class="aboutBox">
+                        <h3 style="box-shadow: none">
+                           <img loading="lazy" src="./resources/logo/vitalen-technology.png" />
+                        </h3>
+                        <p>
+                           As Vitalen Holding, with our brands such as Pedal Commander
+                           and Chip Werke, which we have produced in Turkey since 2011
+                           and sold in six continents around the world, we opened to the
+                           European market with new subsidiary in Duisburg, Germany,
+                           under the name of Vitalen Technology GmbH, after the great
+                           successes we have achieved in the USA, Canada and Turkey.
+                        </p>
+                        <p>
+                           You can easily access our award-winning and best-selling
+                           products such as Pedal Commander, Chip Werke and Fukin Tuned
+                           on our websites www.pedalcommander.de, www.fukintuned.de and
+                           the Amazon platform.
+                        </p>
+                        <p>
+                           As Vitalen Technology GmbH, we continue to produce and market
+                           products that strengthen your vehicles.
+                        </p>
+                     </div>
+                     <div class="brandsBox">
+                        <h3 style="margin-top: 0">BRANDS</h3>
+                        <div class="brand-tabs">
+                           <div class="brand-tablinks imgTabCon" onclick="openBrandContent(event, 'pedalCommanderDe')"
+                              id="defaultOpen">
+                              <img src="./resources/logo/pedal-commander.png" alt="pedal-commander" />
+                              <div class="discover">
+                                 <p>Discover <i class="fa-solid fa-arrow-right-long"></i></p>
+                              </div>
+                           </div>
+                           <div class="brand-tablinks imgTabCon" onclick="openBrandContent(event, 'fukinTunedDe')"
+                              id="defaultOpen">
+                              <img src="./resources/logo/fukin-tuned.png" alt="fukin-tuned" />
+                              <div class="discover">
+                                 <p>Discover <i class="fa-solid fa-arrow-right-long"></i></p>
+                              </div>
+                           </div>
+                           <div class="brand-tablinks imgTabCon" onclick="openBrandContent(event, 'chipwerkeDe')"
+                              id="defaultOpen">
+                              <img src="./resources/logo/chipwerke.png" alt="chipwerke" />
+                              <div class="discover">
+                                 <p>Discover <i class="fa-solid fa-arrow-right-long"></i></p>
+                              </div>
+                           </div>
+                        </div>
+                        <div id="pedalCommanderDe" class="brand-tabContent animate__animated animate__fadeIn">
+                           <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+                           <div class="salesPlatformsBox">
+                              <h3 style="margin-bottom: 10px">SALES PLATFORMS</h3>
+                              <a target="_blank" href="https://pedalcommander.de/"><img loading="lazy"
+                                 src="./resources/logo/pc-almanya.png" alt="pedal commander de" /></a>
+                              <a target="_blank"
+                                 href="https://www.amazon.de/-/tr/stores/PedalCommander/page/D280CC91-E2FC-4F5B-B3C3-94E526E5E15A?ref_=ast_bln">
+                              <img loading="lazy" src="./resources/logo/amazon-germany.png" alt="amazon de store" /></a>
+                              <a target="_blank"
+                                 href="https://www.amazon.co.uk/stores/PedalCommander/page/B7C97BC5-34BD-427D-A171-310D04E1DB9C?ref_=ast_bln">
+                              <img loading="lazy" src="./resources/logo/amazon-unitedkingdom.png" alt="amazon uk store" /></a>
+                           </div>
+                           <div class="award-container">
+                              <h3>Awards</h3>
+                              <img src="./resources/award_logo/carb-certificate.jpg" alt="carb-certificate">
+                              <img src="./resources/award_logo/ce-certificate.jpg" alt="ce certificate">
+                              <img src="./resources/award_logo/iso-certificate.jpg" alt="iso ce-certificate">
+                              <img src="./resources/award_logo/sdc-award_38f46088-945f-4170-9065-41db60c9ee46.jpg" alt="sdc award">
+                              <img src="./resources/award_logo/sema-award.jpg" alt="sema award">
+                              <img src="./resources/award_logo/TUV_AUSTRALIA.png" alt="tuv austria">
+                           </div>
+                           <div class="socialM-container">
+                              <h3> Social </h3>
+                              <a target="_blank" href="https://www.instagram.com/pedalcommander_de/"><i
+                                 class="fa-brands fa-instagram"></i></a>
+                              <a target="_blank" href="https://www.facebook.com/Pedal-Commander-Deutschland-107315458360788"><i
+                                 class="fa-brands fa-facebook"></i></a>
+                              <a target="_blank" href="https://www.youtube.com/channel/UCocyw7Z3UlZthCHR-bf-gng"><i
+                                 class="fa-brands fa-youtube"></i></a>
+                              <a target="_blank" href="https://twitter.com/pedalcommanderD"><i
+                                 class="fa-brands fa-twitter"></i></a>
+                           </div>
+                        </div>
+                        <div id="fukinTunedDe" class="brand-tabContent animate__animated animate__fadeIn">
+                           <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+                           <div class="salesPlatformsBox">
+                              <h3 style="margin-bottom: 10px">SALES PLATFORMS</h3>
+                              <a target="_blank" href="https://www.fntuned.com/">
+                              <img loading="lazy" src="./resources/logo/ft-usa.png" alt="fukin tuned usa" /></a>
+                              <a target="_blank"
+                                 href="https://www.amazon.com/stores/FukinTuned/page/87BE0BFB-5F23-4316-B4B5-D4D0B017DEA7?ref_=ast_bln">
+                              <img loading="lazy" src="./resources/logo/amazon-unitedstates.png" alt="amazon us" /></a>
+                           </div>
+                        </div>
+                        <div id="chipwerkeDe" class="brand-tabContent animate__animated animate__fadeIn">
+                           <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+                           <div class="salesPlatformsBox">
+                              <h3 style="margin-bottom: 10px">SALES PLATFORMS</h3>
+                              <a target="_blank" href="https://www.chipwerke.com/">
+                              <img loading="lazy" src="./resources/logo/chipwerke.png" alt="chipwerke" /></a>
+                           </div>
+                           <div class="socialM-container">
+                              <h3> Social </h3>
+                              <a target="_blank" href="https://www.instagram.com/chip_werke/"><i
+                                 class="fa-brands fa-instagram"></i></a>
+                              <a target="_blank" href="https://www.facebook.com/chipwerke/"><i
+                                 class="fa-brands fa-facebook"></i></a>
+                              <a target="_blank" href="https://www.youtube.com/channel/UCOfoSH5nGibXekNEgCkuUtg"><i
+                                 class="fa-brands fa-youtube"></i></a> 
+                              <a target="_blank" href="https://twitter.com/chipwerke?lang=en"><i
+                                 class="fa-brands fa-twitter"></i></a>   
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+              
+            </div>
+            <div id="tab-construction" class="tab_content">
+              <div class="tab-content-inner animate__animated animate__fadeIn">
+                 <div class="aboutBox">
+                    <h3 style="box-shadow: none">
+                       <img loading="lazy" src="./resources/logo/vitalen-insaat.png" />
+                    </h3>
+                    <p>
+                       Vitalen Construction, under the umbrella of Vitalen Holding,
+                       aims to provide high added value to its investors by building
+                       environmentally friendly, advanced technology, world-class
+                       buildings, it aims to become the most respected brand in its
+                       sector.
+                    </p>
+                    <p>
+                       It continues to work with the aim of sustainable transformation
+                       with its expert staff, the highest quality suppliers and the
+                       most reputable solution partners.
+                    </p>
+                 </div>
+              </div>
+           </div>
+           <div id="tab-agriculture" class="tab_content">
+              <div id="tab-construction" class="tab_content">
+                 <div class="tab-content-inner animate__animated animate__fadeIn">
+                    <div class="aboutBox">
+                       <h3 style="box-shadow: none">
+                          <img loading="lazy" src="./resources/logo/vitalen-tarim.png" />
+                       </h3>
+                       <p>
+                          Vitalen Agriculture, which acts with the motto of "For a
+                          Health-Filled Tomorrows", is a company under the umbrella of
+                          Vitalen Holding. It was established to increase the production
+                          volume of our country, which is among the best in the world in
+                          terms of soil fertility.
+                       </p>
+                       <p>
+                          Vitalen Agriculture, operates a 100-decares of walnut field in
+                          Çorum, İskilip, and a 50-decares of banana greenhouse in
+                          Bozyazı, Mersin. Aiming to produce the highest quality,
+                          Vitalen Agriculture provides spraying and irrigation systems
+                          in walnut land with drainage pools. The latest technology
+                          products are used in banana greenhouses.
+                       </p>
+                    </div>
+                 </div>
+              </div>
+           </div>
+           <div id="tab-game" class="tab_content">
+              <div id="tab-construction" class="tab_content">
+                 <div class="tab-content-inner animate__animated animate__fadeIn">
+                    <div class="aboutBox">
+                       <h3 style="box-shadow: none">
+                          <img loading="lazy" style="max-width: 100%; margin: 20px 0;" src="./resources/logo/npath.jpg" />
+                       </h3>
+                       <p>
+                          Vitalen Holding, follows technological developments closely.
+                          N-PATH Games is the company under the umbrella of Vitalen
+                          Holding, which is established in the field of game technology,
+                          where mobile game projects are developed.
+                       </p>
+                       <p>
+                          Npath Games, continues to produce and market products with a
+                          team of 45 experts in their fields.
+                       </p>
+                    </div>
+                 </div>
+              </div>
+           </div>
+      </section>
+      </div>
+   </body>
+</html>
