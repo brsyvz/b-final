@@ -83,12 +83,11 @@ function openBrandContent(evt, brandName) {
 //     a[i].children[1].children[0].children[0].className =
 //     'active fa-solid fa-arrow-down-long';
 
-   
 //     rm();
-    
+
 //     a[i].children[1].children[0].children[0].className =
 //     'fa-solid fa-arrow-down-long';
-  
+
 //     // if (
 //     //   !a[i].children[1].children[0].children[0].classList.contains('activeIcon')
 //     // ) {
@@ -98,16 +97,31 @@ function openBrandContent(evt, brandName) {
 
 //     // else {
 
-     
 //     //   a[i].children[1].children[0].children[0].className =
 //     //   'fa-solid fa-arrow-right-long';
 //     // }
 //   });
 // }
 
-
 // function rm() {
 //   let x = document.querySelector(".discover > p > i");
-  
+
 //   x.className = "fa-solid fa-arrow-down-long"
 // }
+
+/* close navigation menu if user clicks outside of navigation menu */
+function navigationBarHandler() {
+  let headerCheckBox = document.querySelector('#headerCheckbox');
+  let siteBody = document.querySelector('body');
+  siteBody.addEventListener('click', function (e) {
+    if (
+      e.target.id !== 'headerCheckbox' &&
+      e.target.className !== 'menu-items' &&
+      e.target.className !== 'link-items'
+    ) {
+      headerCheckBox.checked = false;
+    }
+  });
+}
+
+navigationBarHandler();

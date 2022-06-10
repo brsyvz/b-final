@@ -19,15 +19,15 @@
    <body>
       <nav class="navbar">
          <div class="navbar-container container">
-            <input type="checkbox" name="" id="">
+            <input type="checkbox" name="" id="headerCheckbox">
             <div class="hamburger-lines">
                <span class="line line1"></span>
                <span class="line line2"></span>
                <span class="line line3"></span>
             </div>
             <ul class="menu-items">
-               <li><a href="#offices">Offices</a></li>
-               <li><a href="#fields">Activity Fields</a></li>
+               <li class="link-items" ><a href="#offices">Offices</a></li>
+               <li class="link-items" ><a href="#fields">Activity Fields</a></li>
                
             </ul>
             <img loading="lazy" src="./resources/logo/site-logo.png" class="logo"></img>
@@ -67,23 +67,24 @@
          </div>
       </section>
       <section id="offices">
-         <h2>Our offices</h2>
+         <h2>Our offices </h2>
          <div class="officeSectionContentWrapper">
             <div class="tabsWrapper">
                <div class="tab">
-                  <button class="tablinks active" onclick="openCity(event, 'merkezOfis')"><i class="fa-solid fa-building"></i>
+                  
+                  <button class="tablinks active" onclick="openCity(event, 'merkezOfis')">
                   Base Office</button>
                   <!-- <button class="tablinks" onclick="openCity(event, 'argeVeYazilim')">Arge ve Yazilim
                      Ofisi</button> -->
-                  <button class="tablinks" onclick="openCity(event, 'amerikaOfis')"><i class="fa-solid fa-building"></i> USA
+                  <button class="tablinks" onclick="openCity(event, 'amerikaOfis')"> USA
                   Office</button>
-                  <button class="tablinks" onclick="openCity(event, 'almanyaOfis')"><i class="fa-solid fa-building"></i>
+                  <button class="tablinks" onclick="openCity(event, 'almanyaOfis')">
                   Germany Office</button>
                </div>
             </div>
             <div class="offices">
                <div id="merkezOfis" class="tabcontent" style="display: block;">
-                  <div class="officeDetailsWrapper">
+                  <div class="officeDetailsWrapper animate__animated animate__fadeIn">
                      <ul class="officeDetails">
                         <li>
                            <div class="listContainer">
@@ -111,22 +112,7 @@
                               <a href="tel:+90 312 385 99 55">+90 312 385 99 55</a>
                            </div>
                         </li>
-                        <!-- <li>
-                           <div class="socialM-container">
-                           
-                             <a target="_blank" href="https://www.instagram.com/pedalcommandertr/"><i
-                                 class="fa-brands fa-instagram"></i></a>
-                           
-                             <a target="_blank" href="https://www.facebook.com/vitalenholding"><i
-                                 class="fa-brands fa-facebook"></i></a>
-                           
-                             <a target="_blank" href="https://www.youtube.com/channel/UCMJCSMyzVKyALv7qoPJvZhg"><i
-                                 class="fa-brands fa-youtube"></i></a>
-                           
-                             <a target="_blank" href="https://twitter.com/pedalcommandtr"><i
-                                 class="fa-brands fa-twitter"></i></a>
-                           </div>
-                           </li> -->
+                        
                      </ul>
                      <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3057.546519387005!2d32.76116901565732!3d39.973890479419126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d34976021a8b37%3A0x3fc9ab2525d57bf6!2sOstim%2C%201147.%20Sk.%20No%3A12%2C%2006374%20Yenimahalle%2FAnkara!5e0!3m2!1sen!2str!4v1653515793969!5m2!1sen!2str"
@@ -135,7 +121,7 @@
                   </div>
                </div>
                <div id="amerikaOfis" class="tabcontent">
-                  <div class="officeDetailsWrapper">
+                  <div class="officeDetailsWrapper animate__animated animate__fadeIn">
                      <ul class="officeDetails">
                         <li>
                            <div class="listContainer">
@@ -164,22 +150,7 @@
                               <a href="tel:+1(805)365-1010">+1(805)365-1010</a>
                            </div>
                         </li>
-                        <!-- <li>
-                           <div class="socialM-container">
-                           
-                             <a target="_blank" href="https://www.instagram.com/pedalcommander/"><i
-                                 class="fa-brands fa-instagram"></i></a>
-                           
-                             <a target="_blank" href="https://www.facebook.com/PedalCommander/"><i
-                                 class="fa-brands fa-facebook"></i></a>
-                           
-                             <a target="_blank" href="https://www.youtube.com/c/%3CPedalCommander%3E?sub_confirmation=1"><i
-                                 class="fa-brands fa-youtube"></i></a>
-                           
-                             <a target="_blank" href="https://twitter.com/PedalCommander"><i
-                                 class="fa-brands fa-twitter"></i></a>
-                           </div>
-                           </li> -->
+                     
                      </ul>
                      <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1649.9873820255286!2d-119.01109939176014!3d34.19812119514167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e830bb744738df%3A0xfadf5a855aaabd02!2sVitalen%20Auto%20Performance%2C%20Inc.!5e0!3m2!1sen!2str!4v1653516587437!5m2!1sen!2str"
@@ -188,7 +159,7 @@
                   </div>
                </div>
                <div id="almanyaOfis" class="tabcontent">
-                  <div class="officeDetailsWrapper">
+                  <div class="officeDetailsWrapper animate__animated animate__fadeIn">
                      <ul class="officeDetails">
                         <li>
                            <div class="listContainer">
@@ -229,7 +200,7 @@
       <section id="fields" class="fields">
          <h2 style="width: 100%; margin: 20px 0;">Activity Fields</h2>
          <div class="companyContentWrapper">
-            <ul class="tabs">
+            <ul class="tabs tab">
                <li><a href="#tab-automotive"><i class="fa-solid fa-car"></i> Automotive</a> </li>
                <li><a href="#tab-construction"><i class="fa-solid fa-hammer"></i> Construction</a></li>
                <li><a href="#tab-agriculture"><i class="fa-solid fa-wheat-awn"></i> Agriculture</a></li>
