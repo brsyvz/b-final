@@ -1,4 +1,4 @@
-function openCity(evt, cityName) {
+function openOfficeContent(evt, cityName) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName('tabcontent');
   for (i = 0; i < tabcontent.length; i++) {
@@ -75,41 +75,7 @@ function openBrandContent(evt, brandName) {
   evt.currentTarget.className += ' active';
 }
 
-// let a = document.querySelectorAll('.imgTabCon');
 
-// for (let i = 0; i < a.length; i++) {
-//   a[i].addEventListener('click', function () {
-
-//     a[i].children[1].children[0].children[0].className =
-//     'active fa-solid fa-arrow-down-long';
-
-//     rm();
-
-//     a[i].children[1].children[0].children[0].className =
-//     'fa-solid fa-arrow-down-long';
-
-//     // if (
-//     //   !a[i].children[1].children[0].children[0].classList.contains('activeIcon')
-//     // ) {
-//     //   a[i].children[1].children[0].children[0].className =
-//     //     'fa-solid fa-arrow-down-long';
-//     // }
-
-//     // else {
-
-//     //   a[i].children[1].children[0].children[0].className =
-//     //   'fa-solid fa-arrow-right-long';
-//     // }
-//   });
-// }
-
-// function rm() {
-//   let x = document.querySelector(".discover > p > i");
-
-//   x.className = "fa-solid fa-arrow-down-long"
-// }
-
-/* close navigation menu if user clicks outside of navigation menu */
 function navigationBarHandler() {
   let headerCheckBox = document.querySelector('#headerCheckbox');
   let siteBody = document.querySelector('body');
