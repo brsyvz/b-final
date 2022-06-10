@@ -355,7 +355,7 @@ body {
   margin-top: 10px;
 }
 
-@media (min-width: 475px) {
+@media (min-width: 485px) {
   .tab {
     padding: 0;
     flex-direction: row;
@@ -409,7 +409,12 @@ body {
 }
 
 .officeDetailsWrapper iframe {
-  padding: 10px;
+
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  margin: 10px;
+  border-radius: 6px;
+
+  
 }
 
 .officeDetails {
@@ -1040,4 +1045,54 @@ a {
   margin-left: 16px;
  
 }
+}
+
+.aboutBox > img {
+  max-width: 100%;
+border-radius: 4px;
+box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+}
+
+.npathImg {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+  border-radius: 4px;
+}
+
+.socialM-container > h3 {
+  margin: 0;
+  padding: 0;
+  padding-top: 10px;
+}
+
+.socialM-container {
+  margin-bottom: 20px;
+}
+
+.award-container {
+  padding: 0;
+  gap: 10px 20px;
+}
+.award-container > h3 {
+  margin: 0;
+  padding: 0;
+  padding-top: 10px;
+}
+
+@media (min-width:768px) {
+  .award-container {
+    padding: 0;
+    gap: 10px 20px;
+  }
+  .award-container > h3 {
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+  }
+  
+}
+
+.salesPlatformsBox > h3 {
+  margin: 0;
 }
