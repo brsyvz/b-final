@@ -1209,6 +1209,16 @@ a {
 }
 
 @media (min-width: 768px) {
+
+
+  .discover > p {
+    font-size: 18px;
+  }
+  .discover > p > i {
+    font-size: 18px;
+    margin-left: 4px;
+  }
+
   .socialM-container {
     gap: 24px;
   }
