@@ -75,7 +75,6 @@ function openBrandContent(evt, brandName) {
   evt.currentTarget.className += ' active';
 }
 
-
 function navigationBarHandler() {
   let headerCheckBox = document.querySelector('#headerCheckbox');
   let siteBody = document.querySelector('body');
@@ -92,6 +91,6 @@ function navigationBarHandler() {
 
 navigationBarHandler();
 
-window.addEventListener("hashchange", function () {
+window.addEventListener('hashchange', function () {
   window.scrollTo(window.scrollX, window.scrollY - 80);
 });
