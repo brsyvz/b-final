@@ -4,10 +4,10 @@
 <head>
    <meta charset="utf-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <title></title>
+   <title>Vitalen Holding Global</title>
    <meta name="description" content="">
    <meta name="viewport" content="width=device-width, initial-scale=1">
-   <link rel="stylesheet" href="./style.css">
+   <link rel="icon" type="image/x-icon" href="./resources/favicon/V.ico">
    <script src="https://kit.fontawesome.com/b6754fdc88.js" crossorigin="anonymous"></script>
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
@@ -15,7 +15,8 @@
       crossorigin="anonymous" referrerpolicy="no-referrer"></script>
    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.21/dist/js/splide.min.js"></script>
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.21/dist/css/splide.min.css" />
-   <script src="./script.js" defer></script>
+   <script src="./resources/scripts/script.js" defer></script>
+   <link rel="stylesheet" href="./resources/styles/style.css">
 </head>
 
 <body>
@@ -32,7 +33,7 @@
             <li class="link-items"><a href="#fields">Activity Fields</a></li>
 
          </ul>
-         <img loading="lazy" src="./resources/logo/site-logo.png" class="logo"></img>
+     <a href="#"> <img loading="lazy" src="./resources/images/site_logo/site-logo.png" alt="vitalen global website logo" class="logo"></img></a> 
       </div>
    </nav>
    <div id="app">
@@ -44,9 +45,9 @@
                      <div class="splide__slide__container">
                         <div class="slide__content">
                            <picture>
-                              <source media="(max-width: 767px" srcset="./resources/vitalen-banner-mobile.jpg" /> <img
-                                 loading="lazy" data-splide-lazy="./resources/vitalen-banner.jpg"
-                                 src="./resources/vitalen-banner.jpg" alt="vitalen team" width="100%" /></picture>
+                              <source media="(max-width: 767px" srcset="./resources/images/slider_mobile/vitalen-banner-mobile.jpg" /> <img
+                                 loading="lazy" data-splide-lazy="./resources/images/slider_desktop/vitalen-banner.jpg"
+                                 src="./resources/images/slider_desktop/vitalen-banner.jpg" alt="vitalen team" width="100%" /></picture>
                         </div>
                      </div>
                   </li>
@@ -54,8 +55,8 @@
                      <div class="splide__slide__container">
                         <div class="slide__content">
                            <picture>
-                              <source media="(max-width: 767px" srcset="./resources/award-mobile.jpg" /> <img
-                                 loading="lazy" data-splide-lazy="./resources/award.jpg" src="./resources/award.jpg"
+                              <source media="(max-width: 767px" srcset="./resources/images/slider_mobile/award-mobile.jpg" /> <img
+                                 loading="lazy" data-splide-lazy="./resources/images/slider_desktop/award.jpg" src="./resources/images/slider_desktop/award.jpg"
                                  alt="award" width="100%" /></picture>
                         </div>
                      </div>
@@ -65,9 +66,9 @@
                         <div class="slide__content">
                            <picture>
                               <source media="(max-width: 767px"
-                                 srcset="./resources/pedal-commander-sema-2021-mobile.jpg" /> <img loading="lazy"
-                                 data-splide-lazy="./resources/pedal-commander-sema-2021.jpg"
-                                 src="./resources/pedal-commander-sema-2021.jpg" alt="pedal commander sema 2021"
+                                 srcset="./resources/images/slider_mobile/pedal-commander-sema-2021-mobile.jpg" /> <img loading="lazy"
+                                 data-splide-lazy="./resources/images/slider_desktop/pedal-commander-sema-2021.jpg"
+                                 src="./resources/images/slider_desktop/pedal-commander-sema-2021.jpg" alt="pedal commander sema 2021"
                                  width="100%" /></picture>
                         </div>
                      </div>
@@ -77,7 +78,7 @@
          </div>
       </section>
       <section id="offices">
-         <h2>Our offices </h2>
+         <h2>Our Offices </h2>
          <div class="officeSectionContentWrapper">
             <div class="tabsWrapper">
                <div class="tab">
@@ -208,7 +209,7 @@
                   <div class="tab-content-inner animate__animated animate__fadeIn">
                      <div class="aboutBox">
                         <h3 style="box-shadow: none">
-                           <img loading="lazy" src="./resources/logo/vitalen-otomotiv.png" />
+                           <img loading="lazy"  src="./resources/images/company_headers/vitalen-otomotiv.png" alt="Vitalen Otomotiv"/>
                         </h3>
                         <p>
                            Since 2011, Vitalen Automotive Inc. has been addressing the
@@ -237,14 +238,14 @@
                         <div class="brand-tabs">
                            <a href="#pedalCommanderTr" class="brand-tablinks imgTabCon"
                               onclick="openBrandContent(event, 'pedalCommanderTr')" id="defaultOpen">
-                              <img src="./resources/logo/pedal-commander.png" alt="pedal-commander" />
+                              <img loading="lazy" src="./resources/images/brands/pedal-commander.png" alt="pedal-commander" />
                               <div class="discover">
                                  <p>Discover <i class="fa-solid fa-arrow-right-long"></i></p>
                               </div>
                            </a>
                            <a href="#fukinTunedTr" class="brand-tablinks imgTabCon"
                               onclick="openBrandContent(event, 'fukinTunedTr')" id="defaultOpen">
-                              <img src="./resources/logo/fukin-tuned.png" alt="fukin-tuned" />
+                              <img loading="lazy" src="./resources/images/brands/fukin-tuned.png" alt="fukin-tuned" />
                               <div class="discover">
                                  <p>Discover <i class="fa-solid fa-arrow-right-long"></i></p>
                               </div>
@@ -255,29 +256,29 @@
                            <div class="salesPlatformsBox">
                               <h3 style="margin-bottom: 10px">SALES PLATFORMS</h3>
                               <a target="_blank" href="https://pedalcommander.com.tr/"><img loading="lazy"
-                                    src="./resources/logo/pc-türkiye.png" alt="pedal commander tr" />
+                                    src="./resources/images/sales_platforms/pc-türkiye.png" alt="pedal commander tr" />
                                  <p>visit <i class="fa-solid fa-arrow-up-right-from-square"> </i></p>
                               </a>
                               <a target="_blank"
                                  href="https://www.trendyol.com/magaza/vitalen-otomotiv-as-m-155823?sst=0">
-                                 <img loading="lazy" src="./resources/logo/trendyol.png" alt="trendyol" />
+                                 <img loading="lazy" src="./resources/images/sales_platforms/trendyol.png" alt="trendyol" />
                                  <p>visit <i class="fa-solid fa-arrow-up-right-from-square"> </i></p>
                               </a>
                               <a target="_blank" href="https://www.hepsiburada.com/pedalcommander">
-                                 <img loading="lazy" src="./resources/logo/hepsiburada.png" alt="hepsiburada" />
+                                 <img loading="lazy" src="./resources/images/sales_platforms/hepsiburada.png" alt="hepsiburada" />
                                  <p>visit <i class="fa-solid fa-arrow-up-right-from-square"> </i></p>
                               </a>
                               <a target="_blank" href="https://www.n11.com/magaza/vitalenotomotiva-s">
-                                 <img loading="lazy" src="./resources/logo/n11.png" alt="n11" />
+                                 <img loading="lazy" src="./resources/images/sales_platforms/n11.png" alt="n11" />
                                  <p>visit <i class="fa-solid fa-arrow-up-right-from-square"> </i></p>
                               </a>
                               <a target="_blank"
                                  href="https://www.amazon.ae/stores/Pedal+Commander/page/6C21AB50-D128-4C9F-9661-3CD270F3DED2?ref_=ast_bln">
-                                 <img loading="lazy" src="./resources/logo/amazon-arab.png" alt="amazon ae" />
+                                 <img loading="lazy" src="./resources/images/sales_platforms/amazon-arab.png" alt="amazon ae" />
                                  <p>visit <i class="fa-solid fa-arrow-up-right-from-square"> </i></p>
                               </a>
                               <a target="_blank" href="https://www.amazon.sa/-/en/b?ie=UTF8&node=22638901031">
-                                 <img loading="lazy" src="./resources/logo/amazon-saudi.png" alt="amazon sa" />
+                                 <img loading="lazy" src="./resources/images/sales_platforms/amazon-saudi.png" alt="amazon sa" />
                                  <p>visit <i class="fa-solid fa-arrow-up-right-from-square"> </i></p>
                               </a>
                            </div>
@@ -285,7 +286,7 @@
                               <h3>Social </h3>
                               <a target="_blank" href="https://www.instagram.com/pedalcommandertr/"><i
                                     class="fa-brands fa-instagram"></i></a>
-                              <a target="_blank" href="https://www.facebook.com/vitalenholding"><i
+                              <a target="_blank" href="https://www.facebook.com/pedalcommandertr/"><i
                                     class="fa-brands fa-facebook"></i></a>
                               <a target="_blank" href="https://www.youtube.com/channel/UCMJCSMyzVKyALv7qoPJvZhg"><i
                                     class="fa-brands fa-youtube"></i></a>
@@ -294,13 +295,13 @@
                            </div>
                            <div class="award-container">
                               <h3>Awards</h3>
-                              <img src="./resources/award_logo/carb-certificate.jpg" alt="carb-certificate">
-                              <img src="./resources/award_logo/ce-certificate.jpg" alt="ce certificate">
-                              <img src="./resources/award_logo/iso-certificate.jpg" alt="iso ce-certificate">
-                              <img src="./resources/award_logo/sdc-award_38f46088-945f-4170-9065-41db60c9ee46.jpg"
+                              <img loading="lazy" src="./resources/images/awards/carb-certificate.jpg" alt="carb-certificate">
+                              <img loading="lazy" src="./resources/images/awards/ce-certificate.jpg" alt="ce certificate">
+                              <img loading="lazy" src="./resources/images/awards/iso-certificate.jpg" alt="iso ce-certificate">
+                              <img loading="lazy" src="./resources/images/awards/sdc-award_38f46088-945f-4170-9065-41db60c9ee46.jpg"
                                  alt="sdc award">
-                              <img src="./resources/award_logo/sema-award.jpg" alt="sema award">
-                              <img src="./resources/award_logo/TUV_AUSTRALIA.png" alt="tuv austria">
+                              <img loading="lazy" src="./resources/images/awards/sema-award.jpg" alt="sema award">
+                              <img loading="lazy" src="./resources/images/awards/TUV_AUSTRALIA.png" alt="tuv austria">
                            </div>
                         </div>
                         <div id="fukinTunedTr" class="brand-tabContent animate__animated animate__fadeIn">
@@ -308,12 +309,12 @@
                            <div class="salesPlatformsBox">
                               <h3 style="margin-bottom: 10px">SALES PLATFORMS</h3>
                               <a target="_blank" href="https://fukintuned.com.tr/">
-                                 <img loading="lazy" src="./resources/logo/ft-türkiye.png" alt="fukin tuned tr" />
+                                 <img loading="lazy" src="./resources/images/sales_platforms/ft-türkiye.png" alt="fukin tuned tr" />
                                  <p>visit <i class="fa-solid fa-arrow-up-right-from-square"> </i></p>
                               </a>
                               <a target="_blank"
                                  href="https://www.trendyol.com/magaza/vitalen-otomotiv-as-m-155823?sst=0">
-                                 <img loading="lazy" src="./resources/logo/trendyol.png" alt="trendyol" />
+                                 <img loading="lazy" src="./resources/images/sales_platforms/trendyol.png" alt="trendyol" />
                                  <p>visit <i class="fa-solid fa-arrow-up-right-from-square"> </i></p>
                               </a>
                            </div>
@@ -334,7 +335,7 @@
                   <div class="tab-content-inner animate__animated animate__fadeIn">
                      <div class="aboutBox">
                         <h3 style="box-shadow: none">
-                           <img loading="lazy" src="./resources/logo/vitalen-autoperformance.png" />
+                           <img loading="lazy" src="./resources/images/company_headers/vitalen-autoperformance.png"  alt="vitalen auto performance"/>
                         </h3>
                         <p>
                            Vitalen Holding has been the pioneer of technological
@@ -360,21 +361,21 @@
                         <div class="brand-tabs">
                            <a href="#pedalCommanderUs" class="brand-tablinks imgTabCon"
                               onclick="openBrandContent(event, 'pedalCommanderUs')" id="defaultOpen">
-                              <img src="./resources/logo/pedal-commander.png" alt="pedal-commander" />
+                              <img loading="lazy" src="./resources/images/brands/pedal-commander.png" alt="pedal-commander" />
                               <div class="discover">
                                  <p>Discover <i class="fa-solid fa-arrow-right-long"></i></p>
                               </div>
                            </a>
                            <a href="#fukinTunedUs" class="brand-tablinks imgTabCon"
                               onclick="openBrandContent(event, 'fukinTunedUs')" id="defaultOpen">
-                              <img src="./resources/logo/fukin-tuned.png" alt="fukin-tuned" />
+                              <img loading="lazy" src="./resources/images/brands/fukin-tuned.png" alt="fukin-tuned" />
                               <div class="discover">
                                  <p>Discover <i class="fa-solid fa-arrow-right-long"></i></p>
                               </div>
                            </a>
                            <a href="#chipwerkeUs" class="brand-tablinks imgTabCon"
                               onclick="openBrandContent(event, 'chipwerkeUs')" id="defaultOpen">
-                              <img src="./resources/logo/chipwerke.png" alt="chipwerke" />
+                              <img loading="lazy" src="./resources/images/brands/chipwerke.png" alt="chipwerke" />
                               <div class="discover">
                                  <p>Discover <i class="fa-solid fa-arrow-right-long"></i></p>
                               </div>
@@ -385,32 +386,32 @@
                            <div class="salesPlatformsBox">
                               <h3 style="margin-bottom: 10px">SALES PLATFORMS</h3>
                               <a target="_blank" href="https://pedalcommander.com/"><img loading="lazy"
-                                    src="./resources/logo/pc-usa.png" alt="pedal commander usa" />
+                                    src="./resources/images/sales_platforms/pc-usa.png" alt="pedal commander usa" />
                                  <p>visit <i class="fa-solid fa-arrow-up-right-from-square"> </i></p>
                               </a>
                               <a target="_blank"
                                  href="https://www.walmart.com/seller/101002803?itemId=597491099&pageName=item">
-                                 <img loading="lazy" src="./resources/logo/walmart.png" alt="wallmart" />
+                                 <img loading="lazy" src="./resources/images/sales_platforms/walmart.png" alt="wallmart" />
                                  <p>visit <i class="fa-solid fa-arrow-up-right-from-square"> </i></p>
                               </a>
                               <a target="_blank"
                                  href="https://www.amazon.com/stores/PEDALCOMMANDER/page/1057C902-C503-47ED-B12B-39E6B3746ABE?ref_=ast_bln">
-                                 <img loading="lazy" src="./resources/logo/amazon-unitedstates.png" alt="amazon us" />
+                                 <img loading="lazy" src="./resources/images/sales_platforms/amazon-unitedstates.png" alt="amazon us" />
                                  <p>visit <i class="fa-solid fa-arrow-up-right-from-square"> </i></p>
                               </a>
                               <a target="_blank"
                                  href="https://www.amazon.com.br/s?me=A1KGI2XQGXJY7F&marketplaceID=A2Q3Y263D00KWC">
-                                 <img loading="lazy" src="./resources/logo/amazon-brazil.png" alt="amazon br" />
+                                 <img loading="lazy" src="./resources/images/sales_platforms/amazon-brazil.png" alt="amazon br" />
                                  <p>visit <i class="fa-solid fa-arrow-up-right-from-square"> </i></p>
                               </a>
                               <a target="_blank"
                                  href="https://www.amazon.ca/s?me=A1KGI2XQGXJY7F&marketplaceID=A2EUQ1WTGCTBG2">
-                                 <img loading="lazy" src="./resources/logo/amazon-canada.png" alt="amazon ca" />
+                                 <img loading="lazy" src="./resources/images/sales_platforms/amazon-canada.png" alt="amazon ca" />
                                  <p>visit <i class="fa-solid fa-arrow-up-right-from-square"> </i></p>
                               </a>
                               <a target="_blank"
                                  href="https://www.amazon.com.mx/stores/PEDALCOMMANDER/page/FC543B77-DEC2-4EA3-B61A-C4C8CDE43C9A?ref_=ast_bln">
-                                 <img loading="lazy" src="./resources/logo/amazon-mexico.png" alt="amazon mx" />
+                                 <img loading="lazy" src="./resources/images/sales_platforms/amazon-mexico.png" alt="amazon mx" />
                                  <p>visit <i class="fa-solid fa-arrow-up-right-from-square"> </i></p>
                               </a>
                            </div>
@@ -429,13 +430,13 @@
 
                            <div class="award-container">
                               <h3>Awards</h3>
-                              <img src="./resources/award_logo/carb-certificate.jpg" alt="carb-certificate">
-                              <img src="./resources/award_logo/ce-certificate.jpg" alt="ce certificate">
-                              <img src="./resources/award_logo/iso-certificate.jpg" alt="iso ce-certificate">
-                              <img src="./resources/award_logo/sdc-award_38f46088-945f-4170-9065-41db60c9ee46.jpg"
+                              <img loading="lazy" src="./resources/images/awards/carb-certificate.jpg" alt="carb-certificate">
+                              <img loading="lazy" src="./resources/images/awards/ce-certificate.jpg" alt="ce certificate">
+                              <img loading="lazy" src="./resources/images/awards/iso-certificate.jpg" alt="iso ce-certificate">
+                              <img loading="lazy" src="./resources/images/awards/sdc-award_38f46088-945f-4170-9065-41db60c9ee46.jpg"
                                  alt="sdc award">
-                              <img src="./resources/award_logo/sema-award.jpg" alt="sema award">
-                              <img src="./resources/award_logo/TUV_AUSTRALIA.png" alt="tuv austria">
+                              <img loading="lazy" src="./resources/images/awards/sema-award.jpg" alt="sema award">
+                              <img loading="lazy" src="./resources/images/awards/TUV_AUSTRALIA.png" alt="tuv austria">
                            </div>
                         </div>
                         <div id="fukinTunedUs" class="brand-tabContent animate__animated animate__fadeIn">
@@ -443,12 +444,12 @@
                            <div class="salesPlatformsBox">
                               <h3 style="margin-bottom: 10px">SALES PLATFORMS</h3>
                               <a target="_blank" href="https://www.fntuned.com/">
-                                 <img loading="lazy" src="./resources/logo/ft-usa.png" alt="fukin tuned usa" />
+                                 <img loading="lazy" src="./resources/images/sales_platforms/ft-usa.png" alt="fukin tuned usa" />
                                  <p>visit <i class="fa-solid fa-arrow-up-right-from-square"> </i></p>
                               </a>
                               <a target="_blank"
                                  href="https://www.amazon.com/stores/FukinTuned/page/87BE0BFB-5F23-4316-B4B5-D4D0B017DEA7?ref_=ast_bln">
-                                 <img loading="lazy" src="./resources/logo/amazon-unitedstates.png" alt="amazon us" />
+                                 <img loading="lazy" src="./resources/images/sales_platforms/amazon-unitedstates.png" alt="amazon us" />
                                  <p>visit <i class="fa-solid fa-arrow-up-right-from-square"> </i></p>
                               </a>
                            </div>
@@ -458,7 +459,7 @@
                            <div class="salesPlatformsBox">
                               <h3 style="margin-bottom: 10px">SALES PLATFORMS</h3>
                               <a target="_blank" href="https://www.chipwerke.com/">
-                                 <img loading="lazy" src="./resources/logo/chipwerke.png" alt="chipwerke" />
+                                 <img loading="lazy" src="./resources/images/brands/chipwerke.png" alt="chipwerke" />
                                  <p>visit <i class="fa-solid fa-arrow-up-right-from-square"> </i></p>
                               </a>
                            </div>
@@ -481,7 +482,7 @@
                   <div class="tab-content-inner animate__animated animate__fadeIn">
                      <div class="aboutBox">
                         <h3 style="box-shadow: none">
-                           <img loading="lazy" src="./resources/logo/vitalen-technology.png" />
+                           <img loading="lazy" src="./resources/images/company_headers/vitalen-technology.png" alt="vitalen technology" />
                         </h3>
                         <p>
                            As Vitalen Holding, with our brands such as Pedal Commander
@@ -507,7 +508,7 @@
                         <div class="brand-tabs">
                            <a href="#pedalCommanderDe" class="brand-tablinks imgTabCon"
                               onclick="openBrandContent(event, 'pedalCommanderDe')" id="defaultOpen">
-                              <img src="./resources/logo/pedal-commander.png" alt="pedal-commander" />
+                              <img loading="lazy" src="./resources/images/brands/pedal-commander.png" alt="pedal commander" />
                               <div class="discover">
                                  <p>Discover <i class="fa-solid fa-arrow-right-long"></i></p>
                               </div>
@@ -518,17 +519,17 @@
                            <div class="salesPlatformsBox">
                               <h3 style="margin-bottom: 10px">SALES PLATFORMS</h3>
                               <a target="_blank" href="https://pedalcommander.de/"><img loading="lazy"
-                                    src="./resources/logo/pc-almanya.png" alt="pedal commander de" />
+                                    src="./resources/images/sales_platforms/pc-almanya.png" alt="pedal commander de" />
                                  <p>visit <i class="fa-solid fa-arrow-up-right-from-square"> </i></p>
                               </a>
                               <a target="_blank"
                                  href="https://www.amazon.de/-/tr/stores/PedalCommander/page/D280CC91-E2FC-4F5B-B3C3-94E526E5E15A?ref_=ast_bln">
-                                 <img loading="lazy" src="./resources/logo/amazon-germany.png" alt="amazon de store" />
+                                 <img loading="lazy" src="./resources/images/sales_platforms/amazon-germany.png" alt="amazon de store" />
                                  <p>visit <i class="fa-solid fa-arrow-up-right-from-square"> </i></p>
                               </a>
                               <a target="_blank"
                                  href="https://www.amazon.co.uk/stores/PedalCommander/page/B7C97BC5-34BD-427D-A171-310D04E1DB9C?ref_=ast_bln">
-                                 <img loading="lazy" src="./resources/logo/amazon-unitedkingdom.png"
+                                 <img loading="lazy" src="./resources/images/sales_platforms/amazon-unitedkingdom.png"
                                     alt="amazon uk store" />
                                  <p>visit <i class="fa-solid fa-arrow-up-right-from-square"> </i></p>
                               </a>
@@ -547,13 +548,13 @@
                            </div>
                            <div class="award-container">
                               <h3>Awards</h3>
-                              <img src="./resources/award_logo/carb-certificate.jpg" alt="carb-certificate">
-                              <img src="./resources/award_logo/ce-certificate.jpg" alt="ce certificate">
-                              <img src="./resources/award_logo/iso-certificate.jpg" alt="iso ce-certificate">
-                              <img src="./resources/award_logo/sdc-award_38f46088-945f-4170-9065-41db60c9ee46.jpg"
+                              <img loading="lazy" src="./resources/images/awards/carb-certificate.jpg" alt="carb-certificate">
+                              <img loading="lazy" src="./resources/images/awards/ce-certificate.jpg" alt="ce certificate">
+                              <img loading="lazy" src="./resources/images/awards/iso-certificate.jpg" alt="iso ce-certificate">
+                              <img loading="lazy" src="./resources/images/awards/sdc-award_38f46088-945f-4170-9065-41db60c9ee46.jpg"
                                  alt="sdc award">
-                              <img src="./resources/award_logo/sema-award.jpg" alt="sema award">
-                              <img src="./resources/award_logo/TUV_AUSTRALIA.png" alt="tuv austria">
+                              <img loading="lazy" src="./resources/images/awards/sema-award.jpg" alt="sema award">
+                              <img loading="lazy" src="./resources/images/awards/TUV_AUSTRALIA.png" alt="tuv austria">
                            </div>
                         </div>
                      </div>
@@ -565,7 +566,7 @@
                <div class="tab-content-inner animate__animated animate__fadeIn">
                   <div class="aboutBox">
                      <h3 style="box-shadow: none">
-                        <img loading="lazy" src="./resources/logo/vitalen-insaat.png" />
+                        <img loading="lazy" src="./resources/images/company_headers/vitalen-insaat.png" alt="vitalen insaat"/>
                      </h3>
                      <p>
                         Vitalen Construction, under the umbrella of Vitalen Holding,
@@ -579,7 +580,7 @@
                         with its expert staff, the highest quality suppliers and the
                         most reputable solution partners.
                      </p>
-                     <img loading="lazy" src="./resources/insaat.jpg" alt="construction">
+                     <img loading="lazy" src="./resources/images/activity_fields_tabs/insaat.jpg" alt="construction">
                   </div>
                </div>
             </div>
@@ -588,7 +589,7 @@
                   <div class="tab-content-inner animate__animated animate__fadeIn">
                      <div class="aboutBox">
                         <h3 style="box-shadow: none">
-                           <img loading="lazy" src="./resources/logo/vitalen-tarim.png" />
+                           <img loading="lazy" src="./resources/images/company_headers/vitalen-tarim.png" alt="vitalen agriculture" />
                         </h3>
                         <p>
                            Vitalen Agriculture, which acts with the motto of "For a
@@ -605,7 +606,7 @@
                            in walnut land with drainage pools. The latest technology
                            products are used in banana greenhouses.
                         </p>
-                        <img loading="lazy" src="./resources/tarim.jpg" alt="agriculture">
+                        <img loading="lazy" src="./resources/images/activity_fields_tabs/tarim.jpg" alt="agriculture">
                      </div>
                   </div>
                </div>
@@ -615,8 +616,8 @@
                   <div class="tab-content-inner animate__animated animate__fadeIn">
                      <div class="aboutBox">
                         <h3 style="box-shadow: none">
-                           <img class="npathImg" loading="lazy" style="max-width: 100%; margin: 20px 0;"
-                              src="./resources/logo/npath.jpg" />
+                           <img  class="npathImg" loading="lazy" style="max-width: 100%; margin: 20px 0;"
+                              src="./resources/images/activity_fields_tabs/npath.jpg" alt="n-path" />
                         </h3>
                         <p>
                            Vitalen Holding, follows technological developments closely.
